@@ -1,0 +1,15 @@
+html.sscss.schoolsoft .content_wrapper {
+    width: 1130px;
+}
+
+html.sscss.schoolsoft #top_content_wrapper {
+    width: 1130px;
+}
+
+html.sscss.schoolsoft #messagepicture, #lunchpicture, #timebookingpicture, #newspicture, #testpicture, #planninglessonpicture{
+  display: none;
+}
+
+html.sscss.schoolsoft .collapseview{
+  height: height: 100px;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "SchoolSoft-CSS",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Makes schoolsoft not look like a complete mess",
+  "icons" : {
+    "16": "icons/icon16.png",
+    "38": "icons/icon38.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*", "file://*/*"],
+      "css": ["src/custom.css"],
+      "js": ["src/custom.js"]
+    }
+  ]
+
+}
