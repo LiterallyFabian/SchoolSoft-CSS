@@ -13,8 +13,8 @@
   "content_scripts": [
     {
       "matches": ["*://*/*", "file://*/*"],
-      "css": ["src/custom.css"],
-      "js": ["src/custom.js"]
+      "css": ["custom.css"],
+      "js": ["custom.js"]
     }
   ]
 
